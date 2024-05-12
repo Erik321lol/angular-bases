@@ -8,6 +8,9 @@ import { HeroComponent } from './heroes/hero/hero.component';
 import { ListComponent } from './heroes/list/list.component';
 import { HeroesModule } from './heroes/hero.module';
 import { CounterModule } from './counter/components/counter.module';
+import { DbzModule } from './dbz/dbz.module';
+import { AddCharacterComponent } from './dbz/components/add-character/add-character.component';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +20,8 @@ import { CounterModule } from './counter/components/counter.module';
     BrowserModule,
     AppRoutingModule,
     CounterModule,
-    HeroesModule
+    HeroesModule,
+    DbzModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
